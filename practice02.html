@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <fieldset  >
+            <legend>납품자 정보</legend>
+            <label for="a">1. 고객명 : </label> <input type="text" name="a" id="a">
+            <br><br>
+            <label for="c">2. e-mail : </label> <input type="email" name="c" id="c" placeholder="hwang9696191@gmail.com" required >
+            <br><br>
+            <label for="https">3. 홈페이지 :  </label>    <input value="https://" type="text" name="num" id="https">
+            <br><br>
+            <label for="region">4. 지역 : </label>
+            <select name="region" id="region">
+                <option value="Seoul">서울</option>
+                <option value="Daejeon">대전</option>
+                <option value="Daegu">대구</option>
+                <option value="Busan" selected>부산</option>
+                 </select>
+        </fieldset>
+        <fieldset  >
+            <legend>납품 정보</legend>
+            <label for="cs">1. 상품명 : </label> <input type="text" name="a" id="cs">
+            <br><br>
+            <label for="num">2. 납품수량 : </label> <input type="number" name="num" id="num" placeholder="최소 100" >
+            <br><br>
+            <label for="bar">3. 납품등급 :  </label>    <input value="bar" type="range" name="bar" id="bar" max="10" min="0" step="1">
+            <br><br>
+            <label for="t">4. 기타사항 : </label>
+           <textarea name="request" id="t" cols="25" rows="6"></textarea>
+        </fieldset>
+        <input type="submit" value="send message">
+
+
+    </form>
+    
+</body>
+</html>
